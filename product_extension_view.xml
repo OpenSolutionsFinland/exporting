@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<openerp>
+   <data>
+	   <record model="ir.ui.view" id="product_normal_form_view_extension">
+    		<field name="name">product.normal.form.inherit</field>
+    		<field name="model">product.product</field>
+    		<field name="inherit_id" ref="product.product_normal_form_view"/>
+    		<field name="arch" type="xml">
+				<data>
+					<notebook position="inside">
+            			<page String="Export">
+							<group string="Export">
+								<field name="country_of_origin" />
+                				<field name="customs_code"/>
+							</group>
+            			</page>
+					</notebook>
+				</data>
+    		</field>
+		</record>
+	</data>
+</openerp>
