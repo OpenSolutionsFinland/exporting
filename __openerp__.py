@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    "name" : "Product Quality Extension",
+    "name" : "Exporting Product Extension",
     "version" : "1.0",
     "author" : "Open Solutions Finland",
     "description" : """
