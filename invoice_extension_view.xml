@@ -10,7 +10,7 @@
 					<notebook position="inside">
 		      			<page String="Intrastat">
 							<group string="Intrastat selections">
-								<field name="business_type" />
+								<field name="transaction_type" />
 		          				<field name="transportation_method" />
 							</group>
 		      			</page>
