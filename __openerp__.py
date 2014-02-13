@@ -32,7 +32,8 @@
     "init_xml" : [],
     "demo_xml" : [],
     "data" : [
-              'product_extension_view.xml'
+              'product_extension_view.xml',
+              'invoice_extension_view.xml'
                     ],
     'test': [
              ],
