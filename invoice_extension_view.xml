@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<openerp>
+   <data>
+		<record model="ir.ui.view" id="account_invoice_form_intrastat">
+			<field name="name">account.invoice.form.intrastat</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="arch" type="xml">
+				<data>
+					<notebook position="inside">
+		      			<page String="Intrastat">
+							<group string="Intrastat selections">
+								<field name="business_type" />
+		          				<field name="transportation_method" />
+							</group>
+		      			</page>
+					</notebook>
+				</data>
+			</field>
+		</record>
+	</data>
+</openerp>

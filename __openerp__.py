@@ -24,7 +24,7 @@
     "version" : "1.0",
     "author" : "Open Solutions Finland",
     "description" : """
-    OpenERP module for exporting goods. Adds country of origin and customs code fields to products.
+    OpenERP module for exporting goods. Intrastat additions to invoices. Adds country of origin and customs code fields to products.
     """,
     "website" : "www.opensolutions.fi",
     "depends" : ["base","product","sale","stock"],
