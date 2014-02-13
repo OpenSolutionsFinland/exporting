@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    "name" : "Exporting Product Extension",
+    "name" : "Exporting and Intrastat",
     "version" : "1.0",
     "author" : "Open Solutions Finland",
     "description" : """

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0-20131203-002409\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 09:08+0000\n"
-"PO-Revision-Date: 2013-12-30 11:09+0200\n"
+"POT-Creation-Date: 2014-02-13 10:48+0000\n"
+"PO-Revision-Date: 2014-02-13 12:51+0200\n"
 "Last-Translator: Jesse Vartiainen <jesse@opensolutions.fi>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,9 +17,30 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 
 #. module: exporting
-#: view:product.product:0
-msgid "Export"
-msgstr "Vienti"
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Procurement/Sale"
+msgstr "Osto / Myynti"
+
+#. module: exporting
+#: field:product.product,country_of_origin:0
+msgid "Country of Origin"
+msgstr "Alkuperämaa"
+
+#. module: exporting
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Other"
+msgstr "Muu"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Mail"
+msgstr "Posti"
 
 #. module: exporting
 #: model:ir.model,name:exporting.model_product_product
@@ -27,11 +48,115 @@ msgid "Product"
 msgstr "Tuote"
 
 #. module: exporting
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Return"
+msgstr "Palautus"
+
+#. module: exporting
+#: field:account.invoice,transaction_type:0
+msgid "Transaction Type"
+msgstr "Liiketoimintalaji"
+
+#. module: exporting
+#: field:account.invoice,transportation_method:0
+msgid "Transportation Method"
+msgstr "Kuljetustyyppi"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Train"
+msgstr "Juna"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Road"
+msgstr "Tie"
+
+#. module: exporting
+#: view:product.product:0
+msgid "Export"
+msgstr "Vienti"
+
+#. module: exporting
+#: model:ir.model,name:exporting.model_account_invoice
+msgid "Invoice"
+msgstr "Lasku"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Air"
+msgstr "Lento"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Freshwater"
+msgstr "Sisävesi"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Self transporting"
+msgstr "its. kulj."
+
+#. module: exporting
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Replacement"
+msgstr "Korvaus"
+
+#. module: exporting
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Repair"
+msgstr "Korjaus"
+
+#. module: exporting
 #: field:product.product,customs_code:0
 msgid "Customs code"
 msgstr "Tullikoodi"
 
 #. module: exporting
-#: field:product.product,country_of_origin:0
-msgid "Country of Origin"
-msgstr "Alkuperämaa"
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Leasing"
+msgstr "Leasing"
+
+#. module: exporting
+#: view:account.invoice:0
+msgid "Intrastat selections"
+msgstr "Intrastat valinnat"
+
+#. module: exporting
+#: selection:account.invoice,transaction_type:0
+#: code:addons/exporting/invoice_extension.py:9
+#, python-format
+msgid "Sample"
+msgstr "Näyte"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Static"
+msgstr "Kiinteä"
+
+#. module: exporting
+#: selection:account.invoice,transportation_method:0
+#: code:addons/exporting/invoice_extension.py:10
+#, python-format
+msgid "Sea"
+msgstr "Meri"
